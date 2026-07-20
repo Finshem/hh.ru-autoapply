@@ -10,7 +10,7 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 load_dotenv()
 PAUSE_MIN = int(os.getenv("HH_PAUSE_MIN", 10))
 PAUSE_MAX = int(os.getenv("HH_PAUSE_MAX", 15))
-LIMIT = int(os.getenv("HH_LIMIT", 200))
+LIMIT = int(os.getenv("HH_LIMIT", 300))
 MAX_RETRIES = int(
     os.getenv("HH_MAX_RETRIES", 2)
 )  # give up on a vacancy after this many failed attempts
