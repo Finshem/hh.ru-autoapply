@@ -1,0 +1,23 @@
+# Файлы с секретами и паролями
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+secrets.json
+config/credentials.yml
+
+# Файлы с пользовательскими данными
+*.log
+*.sqlite
+*.db
+*.pyc
+.DS_Store
+failed.json
+applied.txt
+
+# Папки с параметрами окружения
+venv/
+__pycache__/
+
